@@ -1,0 +1,1 @@
+"use strict";angular.module("hexcolorApp",["ngCookies","ngResource","ngSanitize","ngRoute"]).config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}]),angular.module("hexcolorApp").controller("MainCtrl",["$scope",function(a){a.hexcolor="#fff"}]);
