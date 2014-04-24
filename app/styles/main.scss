@@ -117,8 +117,8 @@ body, html {
 
 input {
     display: block;
-    border: 0;
-    border-bottom: 1px dotted rgba(0,0,0,.4);
+    border: 1px dotted rgba(0,0,0,.4);
+    text-align:center;
     background: transparent;
     font-size: 32px;
     line-height: 46px;
