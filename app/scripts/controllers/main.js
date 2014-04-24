@@ -1,4 +1,4 @@
 'use strict';
 angular.module('hexcolorApp').controller('MainCtrl', function ($scope) {
-	$scope.hexcolor = '#fff';
+	$scope.hexcolor = '#a503a5';
 });
